@@ -5,6 +5,11 @@ const jobData = [
     { id: '1', title: 'Software Engineer', company: 'Facebook', icon: require('./assets/Vector.png') },
     { id: '2', title: 'Data Analyst', company: 'Google', icon: require('./assets/googleicon.png') },
     { id: '3', title: 'Scrum Master', company: 'Morgan Stanley', icon: require('./assets/appleicon.png') },
+    { id: '4', title: 'Product Manager', company: 'Amazon', icon: require('./assets/amazon.png') },
+    { id: '5', title: 'UX Designer', company: 'Twitter', icon: require('./assets/twitter.png') },
+    { id: '6', title: 'Cybersecurity Specialist', company: 'snapchat', icon: require('./assets/download.png') },
+    { id: '7', title: 'Data Scientist', company: 'IBM', icon: require('./assets/IBM.png') },
+    { id: '8', title: 'DevOps Engineer', company: 'Netflix', icon: require('./assets/netflix.png') }
 ];
 
 const HomePage = ({ route }) => {
@@ -96,6 +101,7 @@ const HomePage = ({ route }) => {
                         <Text style={{ marginTop: 5 }}> Florida, US</Text>
                     </View>
                 </View>
+                
             </ScrollView>
         </View>
     );
